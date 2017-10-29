@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Guess The Number</string>
+    <string name="et_hint"><font size="10">Enter number (1-100)</font></string>
+    <string name="msg_game_info">Enter number and click [GUESS]</string>
+    <string name="error_invalid_number">Enter valid number (1-100)</string>
+    <string name="msg_number_low">is too low - try again.</string>
+    <string name="msg_number_high">is too high - try again.</string>
+    <string name="msg_number_right">is right number - you win. Congratulations</string>
+    <string name="btn_text_new_game">NEW GAME</string>
+    <string name="btn_text_guess">GUESS</string>
+    <string name="title_guess">Find number hidden behind the question mark:</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_guess"
+            android:id="@+id/title_text"
+            android:textColor="@color/colorYellow"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/container"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_guess"
+        android:hint="@string/et_hint"
+        android:textColor="@color/colorYellow"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_guess"
+        android:layout_below="@+id/et_guess"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_info"
+        android:layout_below="@+id/btn_guess"
+        android:textColor="@color/colorYellow"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>
